@@ -1,0 +1,5 @@
+-pip install google-auth google-auth-oauthlib google-auth-httplib2
+-pip install sqlalchemy
+-pip install cryptography
+-pip install python-dotenv
+-pip install pymysql
