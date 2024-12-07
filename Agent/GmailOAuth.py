@@ -115,7 +115,7 @@ class GmailOAuth:
         self.session.close()
 
 if __name__ == "__main__":
-    user_id = "test_user_1"
+    user_id = "test_user_2"
     oauth =  GmailOAuth()
     creds = oauth.get_user_credentials(user_id)
     oauth.close_session()
